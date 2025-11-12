@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* **************** COLORS **************** */
+    --color-red: #fc3314;
+    --color-pink: #ffd4d0;
+    --color-dark: #1f1f1f;
+    --color-d-grey: #8d8d8d;
+    --color-m-grey: #e1e1e1;
+    --color-grey: #f7f7f7;
+    --color-white: #fff;
+
+    /* **************** FONTS **************** */
+    --font-family-montserrat: "Montserrat", sans-serif;
+
+    --font-size-heading1: 64px;
+    --font-size-heading2: 48px;
+    --font-size-heading3: 36px;
+    --font-size-b-xlarge: 20px;
+    --font-size-b-large: 18px;
+    --font-size-b-medium: 16px;
+    --font-size-b-small: 14px;
+    --font-size-b-xsmal: 12px;
+}
