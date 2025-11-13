@@ -1,0 +1,82 @@
+@import url(./global.css);
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 124px;
+    gap: 48px;
+    background-color: var(--color-pink);
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.span-main {
+    display: flex;
+    align-self: self-start;
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-xlarge);
+
+}
+
+h1 {
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-weight: bold;
+    font-size: var(--font-size-heading2);
+    width: 457px;
+    line-height: 150%;
+}
+
+.span-h1 {
+    color: var(--color-red);
+}
+
+.container-main p {
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-medium);
+    width: 457px;
+    line-height: 150%;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-main-hire {
+    background-color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-medium);
+    font-weight: bold;
+    color: var(--color-white);
+    text-decoration: none;
+    gap: 20px;
+    padding: 12px 56px;
+}
+
+.btn-main-portfolio {
+    background-color: var(--color-white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-medium);
+    font-weight: bold;
+    color: var(--color-dark);
+    text-decoration: none;      
+    gap: 20px;
+    padding: 12px 36px;
+    border: 1px solid var(--color-dark);
+}

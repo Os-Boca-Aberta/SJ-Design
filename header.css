@@ -1,0 +1,38 @@
+@import url('./global.css');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 124px;
+    background-color: var(--color-pink);
+}
+
+.nav-header ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-header-item {
+    font-size: var(--font-size-b-large);
+    font-family: var(--font-family-montserrat);
+    font-weight: bold;
+    color: var(--color-dark);
+    text-decoration: none;
+
+}
+.container-btn-header{
+  background-color: var(--color-dark);
+  padding: 12px 24px;  
+
+    
+}
+.btn-header-talk{
+    color: var(--color-white);
+    font-family: var(--font-family-montserrat);
+    font-size: var( --font-size-b-medium);
+    font-weight: bold;
+    text-decoration: none;
+
+}
