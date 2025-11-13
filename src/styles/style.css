@@ -1,0 +1,113 @@
+@import url(global.css);
+
+.section-about{
+    padding: 64px 80px 188px;
+    background-color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-content{
+    font-family: var(--font-family-montserrat);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-content h2{
+    font-weight: bold;
+    font-size: var(--font-size-heading3);
+}
+
+.about-content p{
+    width: 810px;
+    font-size: var(--font-size-b-medium);
+}
+
+.about-numbers{
+    font-family: var(--font-family-montserrat);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 64px;
+}
+
+.about-numbers-card h3{
+    font-size: var(--font-size-heading1);
+    font-weight: bold;
+    color: var(--color-pink);
+    line-height: 150%;
+}
+
+.about-numbers-card p{
+    color: var(--color-white);
+    font-size: var(--font-size-b-large);
+    font-weight: bold;
+}
+
+.section-services{
+    padding: 64px 124px;
+    line-height: 150%;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.services-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    font-family: var(--font-family-montserrat);
+}
+
+
+.services-content p{
+    width: 810px;
+}
+
+.services-container-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family-montserrat);
+    gap: 32px;
+}
+
+
+.services-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.services-card-content h3{
+    font-size: var(--font-size-b-large);
+    font-weight: bold;
+}
+
+.services-card-content p{
+    width: 242px;
+    font-size: var(--font-size-b-small);
+}
+
+.icon-services {
+    align-self: self-start;
+}
