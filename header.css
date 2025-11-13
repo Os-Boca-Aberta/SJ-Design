@@ -20,19 +20,32 @@ header {
     font-weight: bold;
     color: var(--color-dark);
     text-decoration: none;
-
+    transition: 0.5s;
 }
-.container-btn-header{
-  background-color: var(--color-dark);
-  padding: 12px 24px;  
 
-    
+.nav-header-item:hover {
+    color: var(--color-red);
 }
-.btn-header-talk{
+
+.btn-header-talk {
     color: var(--color-white);
+    background-color: var(--color-dark);
+    padding: 12px 24px;
     font-family: var(--font-family-montserrat);
-    font-size: var( --font-size-b-medium);
+    font-size: var(--font-size-b-medium);
     font-weight: bold;
     text-decoration: none;
+    transition: 0.3s;
+}
 
+.btn-header-talk:hover {
+    opacity: 0.95;
+}
+
+.nav-header ul li {
+    transition: 0.5s;
+}
+
+.nav-header ul li:hover {
+    transform: scale(1.02);
 }
