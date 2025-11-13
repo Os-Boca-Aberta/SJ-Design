@@ -67,6 +67,11 @@ h1 {
     text-decoration: none;
     gap: 20px;
     padding: 12px 56px;
+    transition: 0.3s;
+}
+
+.btn-main-hire:hover{
+    background-color: var(--color-red);
 }
 
 .btn-main-portfolio {
@@ -79,4 +84,10 @@ h1 {
     gap: 20px;
     padding: 12px 36px;
     border: 1px solid var(--color-dark);
+    transition: 0.3s;
+}
+
+.btn-main-portfolio:hover{
+    background-color: var(--color-dark);
+    color: var(--color-white);
 }

@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 124px;
+    padding: 10px 124px;
     background-color: var(--color-pink);
 }
 
@@ -39,7 +39,8 @@ header {
 }
 
 .btn-header-talk:hover {
-    opacity: 0.95;
+    background-color: var(--color-red);
+    border-radius: 25px;
 }
 
 .nav-header ul li {
