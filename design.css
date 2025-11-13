@@ -1,0 +1,114 @@
+@import url("./global.css");
+
+.section-desing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 90px 124px;
+    background-color: var(--color-grey);
+}
+
+.content-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.content-design h2 {
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-heading3);
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.content-design p {
+    width: 799px;
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-medium);
+    line-height: 150%;
+}
+
+.container-design {
+    display: flex;
+    justify-content: space-between;
+    width: 1192px;
+}
+
+.card-design {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: var(--color-white);
+    transition: 0.5s;
+}
+
+.card-design:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 5px 0 var(--color-m-grey);
+}
+
+.content-card-design {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 16px 16px 16px;
+    height: 192px;
+}
+
+.group-card-design {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date-design {
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-xsmal);
+    line-height: 150%s;
+}
+
+.group-card-design h3 {
+    width: 304px;
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-medium);
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.group-card-design p {
+    width: 304px;
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-small);
+    line-height: 150%;
+}
+
+.read-more-design {
+    display: flex;
+    align-items: center;
+    color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-xsmal);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.arrow-design {
+    transition: 0.5s;
+}
+
+.read-more-design:hover {
+    .arrow-design {
+        transform: translateX(5px);
+    }
+}
+
