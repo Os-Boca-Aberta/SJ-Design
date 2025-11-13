@@ -43,19 +43,19 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    border-radius: 3px;
     transition: 0.5s;
 }
 
 .card-portfolio:hover {
     transform: translateY(-5px);
-    box-shadow: 2px 1px var(--color-d-grey);
+    box-shadow: 2px 1px 5px 0 var(--color-red);
 }
 
 .content-card-portfolio {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding: 0 3px 0 0;
 }
 
 .description-card-portfolio {
@@ -84,5 +84,5 @@
 }
 
 .btn-portfolio:hover {
-    opacity: 0.85;
+    transform: translate(3px, -3px);
 }
