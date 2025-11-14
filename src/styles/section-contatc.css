@@ -95,53 +95,6 @@ gap: 32px;
     text-decoration: none;
 }
 
-footer{
-    background-color: var(--color-dark);
-    padding: 80px 0px;
-}
 
-.conatiner-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-}
-
-.container-follow-us{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 130px
-}
-
-.content-footer{
-    display: flex;
-    gap: 32px;
-}
-
-.content-footer a{
-    color: var(--color-white);
-    text-decoration: none;
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-b-xlarge);
-}
-
-.conteiner-social-midia-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-}
-
-.content-social-midia-footer p{
-    color: var(--color-white);
-    font-size: var(--font-size-b-medium);
-    font-family: var(--font-family-montserrat);
-}
-
-.footer-midia-social{
-    display: flex;
-    gap: 32px   ;
-}
 
 
