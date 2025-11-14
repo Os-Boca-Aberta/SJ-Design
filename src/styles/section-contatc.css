@@ -91,10 +91,15 @@ gap: 32px;
     background-color: var(--color-dark);
     color: var(--color-white);
     font-family: var(--font-family-montserrat);
+    font-weight: bold;
     font-size: var(--font-size-b-medium);
     text-decoration: none;
+    transition: 0.3s;
 }
 
+.send a:hover{
+    background-color: var( --color-red);
 
+}
 
 
