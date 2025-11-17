@@ -15,9 +15,9 @@
 
 - src
     - assets
-    -styles
+    - styles
 
--index.html
+- index.html
 
 ---
 

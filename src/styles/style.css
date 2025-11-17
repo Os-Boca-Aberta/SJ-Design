@@ -121,7 +121,7 @@ h1 {
     transition: 0.3s;
 }
 
-.btn-main-hire:hover{
+.btn-main-hire:hover {
     background-color: var(--color-red);
 }
 
@@ -131,19 +131,19 @@ h1 {
     font-size: var(--font-size-b-medium);
     font-weight: bold;
     color: var(--color-dark);
-    text-decoration: none;      
+    text-decoration: none;
     gap: 20px;
     padding: 12px 36px;
     border: 1px solid var(--color-dark);
     transition: 0.3s;
 }
 
-.btn-main-portfolio:hover{
+.btn-main-portfolio:hover {
     background-color: var(--color-dark);
     color: var(--color-white);
 }
 
-.section-about{
+.section-about {
     padding: 64px 80px 188px;
     background-color: var(--color-dark);
     display: flex;
@@ -151,13 +151,13 @@ h1 {
     gap: 32px;
 }
 
-.about-container{
+.about-container {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.about-content{
+.about-content {
     font-family: var(--font-family-montserrat);
     color: var(--color-white);
     display: flex;
@@ -168,17 +168,18 @@ h1 {
     gap: 24px;
 }
 
-.about-content h2{
+.about-content h2 {
     font-weight: bold;
     font-size: var(--font-size-heading3);
 }
 
-.about-content p{
+.about-content p {
     width: 810px;
     font-size: var(--font-size-b-medium);
+    line-height: 150%;
 }
 
-.about-numbers{
+.about-numbers {
     font-family: var(--font-family-montserrat);
     display: flex;
     align-items: center;
@@ -187,31 +188,31 @@ h1 {
     gap: 64px;
 }
 
-.about-numbers-card h3{
+.about-numbers-card h3 {
     font-size: var(--font-size-heading1);
     font-weight: bold;
     color: var(--color-pink);
     line-height: 150%;
 }
 
-.about-numbers-card p{
+.about-numbers-card p {
     color: var(--color-white);
     font-size: var(--font-size-b-large);
     font-weight: bold;
 }
 
-.section-services{
+.section-services {
     padding: 64px 124px;
     line-height: 150%;
 }
 
-.services-container{
+.services-container {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.services-content{
+.services-content {
     display: flex;
     text-align: center;
     align-items: center;
@@ -222,11 +223,12 @@ h1 {
 }
 
 
-.services-content p{
+.services-content p {
     width: 810px;
+    line-height: 150%;
 }
 
-.services-container-card{
+.services-container-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -235,18 +237,18 @@ h1 {
 }
 
 
-.services-card-content{
+.services-card-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.services-card-content h3{
+.services-card-content h3 {
     font-size: var(--font-size-b-large);
     font-weight: bold;
 }
 
-.services-card-content p{
+.services-card-content p {
     width: 242px;
     font-size: var(--font-size-b-small);
 }
@@ -290,7 +292,7 @@ h1 {
 
 .container-portfolio {
     display: grid;
-    grid-template-columns: repeat(3,2fr);
+    grid-template-columns: repeat(3, 2fr);
     gap: 64px;
 }
 
@@ -454,7 +456,7 @@ h1 {
     }
 }
 
-.section-contact{
+.section-contact {
     display: flex;
     padding: 124px 0;
     gap: 60px;
@@ -462,19 +464,19 @@ h1 {
     background-color: var(--color-pink)
 }
 
-.container-contact{
+.container-contact {
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
-.content-contact{
+.content-contact {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.content-contact h2{
+.content-contact h2 {
     color: var(--color-dark);
     font-family: var(--font-family-montserrat);
     font-size: var(--font-size-heading3);
@@ -482,7 +484,7 @@ h1 {
     line-height: 150%;
 }
 
-.content-contact p{
+.content-contact p {
     color: var(--color-dark);
     font-family: var(--font-family-montserrat);
     font-size: var(--font-size-b-medium);
@@ -490,55 +492,64 @@ h1 {
     line-height: 150%;
 }
 
-.contact-js-design{
+.contact-js-design {
     display: flex;
     flex-direction: column;
-    gap: 119px ;
+    gap: 119px;
 }
 
-.js-design{
-display: flex;
-flex-direction: column;
-gap: 32px;
+.js-design {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-.contact{
+.contact {
     display: flex;
     gap: 16px;
 }
 
-.contact p{
+.contact p {
     color: var(--color-dark);
     font-family: var(--font-family-montserrat);
     font-size: var(--font-size-b-medium);
     width: 291;
 }
 
-.social-midia{
+.social-midia {
     display: flex;
     gap: 24px;
 }
 
-.conatiner-email{
+.conatiner-email {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 566px;
 }
 
-.conatiner-email input{
-    padding: 14px 474px 14px 16px ;
+.conatiner-email input {
+    height: 49px;
+    padding: 14px 16px;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-small);
+
 }
 
-.active-email input {
-    padding:  14px 474px 134px 16px;
+.active-email textarea {
+    width: 566px;
+    height: 168px;
+    padding: 13px 16px;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-b-small);
 }
 
-.send{
+.send {
     display: flex;
     gap: 32px;
 }
 
-.send a{
+.send button {
     padding: 12px 56px;
     background-color: var(--color-dark);
     color: var(--color-white);
@@ -546,39 +557,40 @@ gap: 32px;
     font-weight: bold;
     font-size: var(--font-size-b-medium);
     text-decoration: none;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.send a:hover{
-    background-color: var( --color-red);
+.send button:hover {
+    background-color: var(--color-red);
 
 }
 
-footer{
+footer {
     background-color: var(--color-dark);
     padding: 80px 0px;
 }
 
-.conatiner-footer{
+.conatiner-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 64px;
 }
 
-.container-follow-us{
+.container-follow-us {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 130px
 }
 
-.content-footer{
+.content-footer {
     display: flex;
     gap: 32px;
 }
 
-.content-footer a{
+.content-footer a {
     color: var(--color-white);
     text-decoration: none;
     font-family: var(--font-family-montserrat);
@@ -587,26 +599,26 @@ footer{
     transition: 0.3s;
 }
 
-.content-footer a:hover{
+.content-footer a:hover {
     transform: scale(1.02);
-    color: var( --color-red);
+    color: var(--color-red);
 }
 
 
-.conteiner-social-midia-footer{
+.conteiner-social-midia-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
 }
 
-.content-social-midia-footer p{
+.content-social-midia-footer p {
     color: var(--color-white);
     font-size: var(--font-size-b-medium);
     font-family: var(--font-family-montserrat);
 }
 
-.footer-midia-social{
+.footer-midia-social {
     display: flex;
     gap: 32px;
 }
